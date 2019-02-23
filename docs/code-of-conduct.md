@@ -1,10 +1,8 @@
 ---
 id: code-of-conduct
-title: Code of Conduct
+title: Tideflow.io Code of Conduct
 sidebar_label: Code of Conduct
 ---
-
-# Tideflow.io Code of Conduct
 
 This code of conduct outlines our expectations for participants within the
 **Tideflow.io** community, as well as steps to reporting unacceptable behavior.
