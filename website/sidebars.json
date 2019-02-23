@@ -1,11 +1,9 @@
 {
   "docs": {
-    "Introduction": ["home", "contribute"],
-    "Concepts": ["conecepts", "services", "workflows", "executions", "steps"],
-    "Developer guide": ["developers"],
-    "System Administrator Guide": ["devops", "deploying"]
-  },
-  "docs-other": {
-    "First Category": ["doc5"]
+    "Introduction": ["introduction", "contribute"],
+    "Concepts": ["concepts", "services", "workflows", "executions", "steps"],
+    "Developer guide": ["developers", "installation-instructions"],
+    "System Administrator Guide": ["devops", "deploying"],
+    "Community": ["code-of-conduct"]
   }
 }

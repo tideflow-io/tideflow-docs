@@ -9,8 +9,8 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'docs.tideflow.io', // Title for your website.
-  tagline: 'Tideflow docs',
+  title: 'Tideflow Docs', // Title for your website.
+  tagline: 'Tideflow Docs',
   url: 'https://docs.tideflow.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -36,29 +36,24 @@ const siteConfig = {
   /* Colors for website */
   colors: {
     primaryColor: '#444444',
-    secondaryColor: '#444444',
+    secondaryColor: '#A7EDFF',
   },
 
   /* Custom fonts for website */
-  /*
   fonts: {
-    myFont: [
+    mainFont: [
+      "Lato",
       "Times New Roman",
       "Serif"
-    ],
-    myOtherFont: [
-      "-apple-system",
-      "system-ui"
     ]
   },
-  */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Jose Constela`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'atom-one-dark',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -74,10 +69,12 @@ const siteConfig = {
   twitterImage: 'img/docusaurus.png',
 
   // Show documentation's last contributor's name.
-  enableUpdateBy: true,
+  enableUpdateBy: false,
 
   // Show documentation's last update time.
-  enableUpdateTime: true,
+  enableUpdateTime: false,
+
+  editUrl: 'https://github.com/tideflow-io/tideflow-docs/edit/master/docs/',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...

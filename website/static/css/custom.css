@@ -14,3 +14,74 @@
 
 @media only screen and (min-width: 1500px) {
 }
+/* Body */
+
+body {
+  background: #F7F9FA;
+}
+
+/* header */
+.fixedHeaderContainer {
+  height: 70px;
+  padding: 20px;
+  background-color: #fff !important;
+  border-bottom: 1px solid #E9EEF2;
+  color: black;
+}
+
+.fixedHeaderContainer h2 {
+  font-weight: 500;
+}
+
+.headerWrapper a {
+  text-decoration: none;
+  color: black !important;
+}
+
+/* nav sidebar */
+
+.navGroupCategoryTitle {
+  color: black !important;
+}
+
+.navGroup:not(:first-child) {
+  margin-top: 30px;
+}
+
+.navListItemActive {
+  text-decoration: underline;
+}
+
+.toc .toggleNav ul {
+  padding: 0 0 0 0;
+}
+
+/* content */
+
+.post a {
+  color: #007bff;
+  text-decoration: underline;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+.edit-page-link.button {
+  border: none;
+  font-family: PostGrotesk-Regular,sans-serif;
+  border-bottom: 1px solid #052a4e;
+  padding: 0;
+  margin-bottom: 2px;
+}
+.edit-page-link.button:hover {
+  color: inherit;
+  background: none;
+}
+
+.toc-headings {
+  background: rgba(161, 198, 232, 0.2);
+}
+
+.toc-headings a {
+  text-decoration: underline;
+  color: black;
+}
