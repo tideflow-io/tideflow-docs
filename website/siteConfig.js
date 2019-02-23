@@ -21,27 +21,22 @@ const siteConfig = {
   projectName: 'tideflow-docs',
   cname: 'docs.tideflow.io',
   organizationName: 'tideflow-io',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    //{doc: 'doc1', label: 'Docs'},
-    //{doc: 'doc4', label: 'API'},
-    //{page: 'help', label: 'Help'},
-    //{blog: true, label: 'Blog'},
+    { href: "https://tideflow.io/", label: "Website" },
+    { href: "https://github.com/tideflow-io", label: "Github" },
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/tf_logo.png',
+  footerIcon: 'img/tf_logo.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#444444',
+    secondaryColor: '#444444',
   },
 
   /* Custom fonts for website */
@@ -79,14 +74,14 @@ const siteConfig = {
   twitterImage: 'img/docusaurus.png',
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/tideflow-io/tideflow',
 };
 
 module.exports = siteConfig;
