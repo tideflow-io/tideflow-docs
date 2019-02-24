@@ -18,7 +18,7 @@ different services:
 Tideflow's plugin system is extendable. You can create plugins yourself
 via code.
 
-The will show in the Tideflow's UI so you can use your own plugins in your
+They will show in the Tideflow's UI so you can use your own plugins in your
 workflows.
 
 We suggest you to either check the list of [available services](https://github.com/tideflow-io/tideflow/tree/master/imports/services)
