@@ -47,6 +47,7 @@ class Footer extends React.Component {
           <div>
             <h5>Community</h5>
             <a href="https://gitter.im/tideflow-io/community">Project Chat</a>
+            <a href="/docs/code-of-conduct">Code of Conduct</a>
           </div>
           <div>
             <h5>More</h5>
