@@ -5,9 +5,6 @@ title: Contributing
 
 First off, thanks for taking the time to contribute!
 
-When contributing to Tideflow.io, we encourage you to discuss the you wish to
-make via issue, email, or any other method. 
-
 Please note there is a [code of conduct](/docs/code-of-conduct), please follow
 it in all your interactions with the project and its community.
 

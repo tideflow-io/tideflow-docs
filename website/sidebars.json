@@ -1,8 +1,8 @@
 {
   "docs": {
     "Introduction": ["introduction", "contribute"],
-    "Concepts": ["concepts", "services", "workflows", "executions", "steps"],
-    "Developer guide": ["developers", "installation-instructions"],
+    "Concepts": ["concepts", "workflows", "services", "channels", "executions"],
+    "Developer guide": ["developers", "installation-instructions", "creating-services"],
     "System Administrator Guide": ["devops", "deploying"],
     "Community": ["code-of-conduct"]
   }
