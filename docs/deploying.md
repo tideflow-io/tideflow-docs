@@ -21,4 +21,8 @@ MONGO_URL
 # MongoDB Oplog. Pointing to a replica set.
 # Optional. If not provided, you might experience performance issues.
 MONGO_OPLOG_URL 
+
+# The site's main url
+# Example: https://subdomain.example.com
+ROOT_URL
 ```
