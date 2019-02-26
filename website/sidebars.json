@@ -13,8 +13,10 @@
       "services-introduction",
       "services-agent",
       "services-cron",
+      "services-email-outgoing",
       "services-endpoints",
       "services-gh-webhooks",
+      "services-pdf",
       "services-rss"],
     "Developer guide": [
       "developers",
