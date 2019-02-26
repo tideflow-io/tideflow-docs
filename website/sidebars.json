@@ -1,9 +1,28 @@
 {
   "docs": {
-    "Introduction": ["introduction", "contribute"],
-    "Concepts": ["concepts", "workflows", "services", "channels", "executions"],
-    "Developer guide": ["developers", "installation-instructions", "creating-services"],
-    "System Administrator Guide": ["devops", "deploying"],
+    "Introduction": [
+      "introduction",
+      "contribute"],
+    "Concepts": [
+      "concepts",
+      "workflows",
+      "services",
+      "channels",
+      "executions"],
+    "Services": [
+      "services-introduction",
+      "services-agent",
+      "services-cron",
+      "services-endpoints",
+      "services-gh-webhooks",
+      "services-rss"],
+    "Developer guide": [
+      "developers",
+      "installation-instructions",
+      "creating-services"],
+    "System Administrator Guide": [
+      "devops",
+      "deploying"],
     "Community": ["code-of-conduct"]
   }
 }
