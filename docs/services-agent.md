@@ -15,7 +15,7 @@ purposes on different workflows.
 ### Previous step output
 
 Tideflow can provide your agents commands the output from the previous workflow
-steps.
+step.
 
 To enable this, follow the instructions while editing your workflow.
 
