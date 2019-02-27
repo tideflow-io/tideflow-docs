@@ -12,9 +12,6 @@ authentication token.
 This means that you can have multiple agents, each one of thenm servig different
 purposes on different workflows.
 
-Read [tideflow-agent's cli README](https://raw.githubusercontent.com/tideflow-io/tideflow-agent/master/README.md)
-to learn more about the cli tool.
-
 ### How the agent works internally
 
 The agent connects with your Tideflow via socketIO, and first tries to 
@@ -26,3 +23,10 @@ an internal parallel queue.
 
 You can customise the max number of jobs the agent should process concurrently
 via a parameter when executing the agent. Read [tideflow-agent's cli README](https://raw.githubusercontent.com/tideflow-io/tideflow-agent/master/README.md) for the full list of cli's parameters.
+
+## More information
+
+Read [tideflow-agent's cli README](https://raw.githubusercontent.com/tideflow-io/tideflow-agent/master/README.md)
+to learn more about the cli tool.
+
+The cli is also available on npmjs.com. [@tideflowio/tideflow-agent](https://www.npmjs.com/package/@tideflowio/tideflow-agent)
