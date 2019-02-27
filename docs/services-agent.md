@@ -34,8 +34,26 @@ meow
 the agent will execute:
 
 ```bash
-meow --tf_previous [...]
+meow --tf_previous <previous-step-output>
 ```
+
+The previous step's output is an stringified representation of the following JSON
+format:
+
+```json
+[
+  {
+    "type" : "object",
+    "data" : {}
+  }
+]
+```
+
+As steps can produce multiple results, each one of this results is represented
+as an arrray element with two root properties:
+
+*type*: an string that defines the kind of data retuned by the previous step.
+*data*: an object containing the "raw" result.
 
 ### How the agent works internally
 
@@ -47,7 +65,7 @@ to execute, the agent distributes them across different processes, using
 an internal parallel queue.
 
 You can customise the max number of jobs the agent should process concurrently
-via a parameter when executing the agent. Read [tideflow-agent's cli README](https://raw.githubusercontent.com/tideflow-io/tideflow-agent/master/README.md) for the full list of cli's parameters.
+via a parameter when executing the agent. Read [tideflow-agent's cli README](https://github.com/tideflow-io/tideflow-agent) for the full list of cli's parameters.
 
 ### More information
 
