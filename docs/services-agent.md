@@ -9,12 +9,12 @@ servers, via the agent's cli tool. This commands can be set as workflows steps.
 When you create a new agent via the dashboard, Tideflow will assign it an
 authentication token.
 
-This means that you can have multiple agents, each one of thenm servig different
+This means that you can have multiple agents, each one of them servig different
 purposes on different workflows.
 
 ### How the agent works internally
 
-The agent connects with your Tideflow via socketIO, and first tries to 
+The agent connects to your Tideflow via socketIO, and it first tries to 
 identificate itself against the server.
 
 When the agent is authenticated, and Tideflow starts sending it commands
