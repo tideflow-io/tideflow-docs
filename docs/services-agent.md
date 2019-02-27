@@ -52,8 +52,8 @@ format:
 As steps can produce multiple results, each one of this results is represented
 as an arrray element with two root properties:
 
-*type*: an string that defines the kind of data retuned by the previous step.
-*data*: an object containing the "raw" result.
+- **type**: an string that defines the kind of data retuned by the previous step.
+- **data**: an object containing the "raw" result.
 
 ### How the agent works internally
 
