@@ -9,7 +9,7 @@ servers, via the agent's cli tool. This commands can be set as workflows steps.
 When you create a new agent via the dashboard, Tideflow will assign it an
 authentication token.
 
-This means that you can have multiple agents, each one of them servig different
+This means that you can have multiple agents, each one of them serving different
 purposes on different workflows.
 
 ### Previous step output
