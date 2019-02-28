@@ -4,10 +4,6 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-# <a href='https://tideflow.io'><img src='https://raw.githubusercontent.com/tideflow-io/tideflow/b7d354c8d08d5934dcd2d351951eba29d84ed8dd/readme.jpg' width='260' alt='Tideflow.io'></a>
-
-[![Gitter](https://badges.gitter.im/join_chat.svg)](https://gitter.im/tideflow-io/community)
-
 Realtime, open source workflows execution platform.
 
 Tideflow integrates with:
