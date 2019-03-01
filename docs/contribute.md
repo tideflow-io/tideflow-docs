@@ -8,6 +8,18 @@ First off, thanks for taking the time to contribute!
 Please note there is a [code of conduct](/docs/code-of-conduct), please follow
 it in all your interactions with the project and its community.
 
+## How can I contribute to Tideflow?
+
+Add an star on Github for [the main repository](https://github.com/tideflow-io/tideflow),
+it really helps a lot!
+
+You can also use Tideflow for your own purposes and report any issue or bug
+you may found.
+
+There are some tasks on the backlogs. Check https://github.com/tideflow-io/tideflow/issues
+
+Any ideas, comments and pull requests helps hugely to the project.
+
 ## Pull Request Process
 
 1. Ensure any install or build dependencies are removed before doing a build.
