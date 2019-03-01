@@ -11,3 +11,9 @@ workflow's step.
 
 If the previous workflow's step resulted in a file or files, they will be attached to the
 email.
+
+As other examples on attaching the previous step's output:
+
+- [RSS articles](/docs/services-rss) or [Github issues](/docs/installation-instructions) are shown as lists on the email's body.
+- [PDF files](/docs/services-pdf) are attached as files.
+- [Endpoint's](/docs/services-email-outgoing) POST request's body is shown in pretty format.
