@@ -11,7 +11,7 @@ Required details:
 
 - **Text** Content
 
-Example file / [Example input](https://github.com/tideflow-io/tideflow/blob/master/private/pdfs/text.html)
+[Example file](/services/pdf/text.pdf) / [Example input](https://github.com/tideflow-io/tideflow/blob/master/private/pdfs/text.html)
 
 ## Bill
 
@@ -29,4 +29,4 @@ Additional details are:
 - **Date** bill's date (defaults to current date)
 - **Total** bill's total. Gets calculated based on the items if not provided
 
-Example file / [Example input](https://github.com/tideflow-io/tideflow/blob/master/private/pdfs/bill.html)
+[Example file](/services/pdf/bill.pdf) / [Example input](https://github.com/tideflow-io/tideflow/blob/master/private/pdfs/bill.html)
