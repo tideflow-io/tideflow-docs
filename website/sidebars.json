@@ -17,6 +17,7 @@
       "services-endpoints",
       "services-gh-webhooks",
       "services-pdf",
+      "services-webforms",
       "services-rss"],
     "Developer guide": [
       "developers",
