@@ -37,6 +37,8 @@ release, all the project's dependencies, and start mongodb.
 
 5. Open your browser and visit [localhost:3000](http://localhost:3000)
 
-That's it. That simple.
+The first time you try to login, Tideflow will open the installation
+screen. This is a single step process that will create your first user
+credentials as well as some other necessary settings.
 
 The next time you want to execute the platform locally, simply repeat the 4th step.
