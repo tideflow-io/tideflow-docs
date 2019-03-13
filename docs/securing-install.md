@@ -13,4 +13,4 @@ You can:
 
 - Do not allow any signup
 - Allow anyone to signup
-- Restrict signups to an specified domain name
+- Restrict signups to an specific domain name
