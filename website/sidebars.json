@@ -22,6 +22,7 @@
     "Developer guide": [
       "developers",
       "installation-instructions",
+      "securing-install",
       "creating-services"],
     "System Administrator Guide": [
       "devops",
