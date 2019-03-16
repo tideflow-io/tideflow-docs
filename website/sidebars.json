@@ -18,6 +18,7 @@
       "services-gh-webhooks",
       "services-pdf",
       "services-webforms",
+      "services-webparsy",
       "services-rss"],
     "Developer guide": [
       "developers",
