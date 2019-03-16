@@ -10,16 +10,14 @@ When adding your web scraper step to your workflows, you must define the web scr
 A quick example that scrapes Madrid’s temperature would be:
 
 ```yaml
-version: 1
 jobs:
   main:
     steps:
       - goto: https://weather.com/es-ES/tiempo/hoy/l/SPXX0050:1:SP
-      - title
       - text:
           selector: .today_nowcard-temp span
           type: number
-          as: temp_number
+          as: madrid_temperature
 ```
 
 Tideflow will send the result of the web scraping process to your workflow’s next step.
