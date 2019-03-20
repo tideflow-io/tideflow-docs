@@ -4,7 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-Realtime, open source workflows execution platform.
+Realtime, open source workflows execution web application.
 
 Tideflow integrates with:
 
