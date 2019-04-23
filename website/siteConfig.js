@@ -9,17 +9,17 @@
 // site configuration options.
 
 const siteConfig = {
-  title: 'Tideflow Docs', // Title for your website.
-  tagline: 'Tideflow Docs',
-  url: 'https://docs.tideflow.io', // Your website URL
+  title: 'Tideflow.io', // Title for your website.
+  tagline: 'Tideflow.io',
+  url: 'https://tideflow.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'tideflow-docs',
-  cname: 'docs.tideflow.io',
+  projectName: 'tideflow-website',
+  cname: 'tideflow.io',
   organizationName: 'tideflow-io',
 
   // For no header links in the top nav bar -> headerLinks: [],
@@ -52,7 +52,7 @@ const siteConfig = {
   },
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Jose Constela`,
+  copyright: `Copyright © ${new Date().getFullYear()} Tideflow.io & its maintainers. Created by Jose Ramón Cid Constela`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
