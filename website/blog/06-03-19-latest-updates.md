@@ -6,8 +6,6 @@ title: Latest updates
 
 While Tideflow is still in pre-production stage, I’m still improving stability and making the platform more usable.
 
-![](https://www.tideflow.io/wp-content/uploads/2019/03/Captura-de-pantalla-2019-03-06-a-las-23.44.15-1024x730.png)</figure>
-
 One of the last features implemented is Tideflow’s installation screen:
 
 The first time you try to login, Tideflow will open the installation screen. This is a single step process that will create your first user credentials as well as some other necessary settings. [See the installation instructions](https://docs.tideflow.io/docs/installation-instructions)
