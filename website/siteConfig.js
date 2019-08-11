@@ -24,11 +24,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: "/", label: "Home" },
-    { href: "/docs/introduction", label: "Docs" },
-    { blog: true, label: "Blog" },
-    { href: "mailto:tideflowio@gmail.com", label: "Get In Touch" },
-    { href: "https://github.com/tideflow-io", label: "Github" },
+    { href: "https://tideflow.io/", label: "Home" },
+    { href: "https://tideflow.io/features", label: "Features" },
+    { href: "https://docs.tideflow.io/", label: "Docummentation" },
+    { href: "https://tideflow.io/deploy", label: "Deploy" },
+    { href: "https://tideflow.io/contact", label: "Contact" }
   ],
 
   /* path to images for header/footer */
@@ -45,11 +45,15 @@ const siteConfig = {
   /* Custom fonts for website */
   fonts: {
     mainFont: [
-      "Lato",
-      "Times New Roman",
-      "Serif"
+      "Moli",
+      // "Times New Roman",
+      // "Serif"
     ]
   },
+
+  stylesheets: [
+    "https://fonts.googleapis.com/css?family=Muli&display=swap"
+  ],
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Tideflow.io & its maintainers. Created by Jose Ramón Cid Constela`,
