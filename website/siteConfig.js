@@ -19,7 +19,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'tideflow-website',
-  cname: 'tideflow.io',
+  cname: 'docs.tideflow.io',
   organizationName: 'tideflow-io',
 
   // For no header links in the top nav bar -> headerLinks: [],
