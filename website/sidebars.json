@@ -12,6 +12,7 @@
     "Services": [
       "services-introduction",
       "services-agent",
+      "services-code",
       "services-cron",
       "services-email-outgoing",
       "services-endpoints",

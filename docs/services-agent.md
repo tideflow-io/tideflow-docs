@@ -12,7 +12,7 @@ authentication token.
 This means that you can have multiple agents, each one of them serving different
 purposes on different workflows.
 
-### Previous step output
+### How to receive data from previous steps connected to my Agent
 
 Tideflow can provide your agents commands the output from the previous workflow
 step.
@@ -55,7 +55,7 @@ as an arrray element with two root properties:
 - **type**: an string that defines the kind of data retuned by the previous step.
 - **data**: an object containing the "raw" result.
 
-### How the agent works internally
+### How the Agent service works internally
 
 The agent connects to your Tideflow via socketIO, and it first tries to 
 identificate itself against the server.
