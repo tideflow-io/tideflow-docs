@@ -64,10 +64,47 @@ data, and then submits it to a third party service.</p>
 <p>All results from previous steps are stored as a JSON array in a temporal file
 you can access. The full path of this file can be found in the
 <code>TF_PREVIOUS_STEPS</code> environment variable.</p>
+<p>An example on how to access this data could be by using a NodeJS code like this:</p>
 <pre><code class="hljs css language-javascript"><span class="hljs-keyword">const</span> fs = <span class="hljs-built_in">require</span>(<span class="hljs-string">'fs'</span>)
 <span class="hljs-keyword">const</span> fileContents = fs.readFileSync(process.env.TF_PREVIOUS_STEPS)
 <span class="hljs-keyword">const</span> results = <span class="hljs-built_in">JSON</span>.parse(fileContents)
 </code></pre>
+<p>This is an example for this file contents, represented in JSON format.</p>
+<pre><code class="hljs css language-json">[
+  {
+    <span class="hljs-attr">"_id"</span>: <span class="hljs-string">"oBoPxzQTu94a5mPdh"</span>,
+    <span class="hljs-attr">"stepIndex"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"type"</span>: &lt;a service name&gt;,
+    <span class="hljs-attr">"event"</span>: &lt;a service's event name&gt;,
+    <span class="hljs-attr">"createdAt"</span>: <span class="hljs-string">"2019-08-13T16:50:43.152Z"</span>,
+    <span class="hljs-attr">"updatedAt"</span>: <span class="hljs-string">"2019-08-13T16:50:43.741Z"</span>,
+    <span class="hljs-attr">"stepResults"</span>: [
+      {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"object"</span>,
+        <span class="hljs-attr">"data"</span>: { <span class="hljs-attr">"character"</span>: <span class="hljs-string">"Jon Snow"</span> }
+      },
+      {
+        <span class="hljs-attr">"type"</span>: <span class="hljs-string">"file"</span>,
+        <span class="hljs-attr">"data"</span>: <span class="hljs-string">"truncated"</span>,
+        <span class="hljs-attr">"path"</span>: <span class="hljs-string">"/var/folders/5s/tjnclfh50s1_cvxd7d5gr8wm0000gn/T/1565715043767-bill.pdf"</span>,
+        <span class="hljs-attr">"fileName"</span>: <span class="hljs-string">"bill.pdf"</span>
+      }
+    ]
+  }
+]
+</code></pre>
+<p>In the previous representation, we can see multiple things:</p>
+<ul>
+<li>The list of execution logs from preceding steps (the root array) only contains
+one single element. This means that the step only had one preceding step connected
+to it.</li>
+<li>The predecesor task is the 2nd step in the workflow schema (apart from the trigger).</li>
+<li>The preceding step service name is <code>&lt;a service name&gt;</code>, and the event executed
+<code>&lt;a service's event name&gt;</code>.</li>
+<li>The execution of the previous step fired on <code>createdAt</code> and finished at <code>updatedAt</code></li>
+<li>It resolved with two different results: an object, containing a character's name, and
+a file.</li>
+</ul>
 <h3><a class="anchor" aria-hidden="true" id="how-the-code-service-works-internally"></a><a href="#how-the-code-service-works-internally" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How the Code service works internally</h3>
 <p>Depending on the step configuration, the process might be different. But as a
 general rule, the way it works is as follows:</p>
