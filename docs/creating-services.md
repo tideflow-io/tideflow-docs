@@ -64,12 +64,12 @@ servicesAvailable.push(service)
 
 |Property|Description|
 |---|---|
-|name||
-|humanName||
-|description||
-|website||
-|icon||
-|iconColor||
+|name|Unique slug amont other services, used internally to deferentiate it from other services.|
+|humanName|Human readable name for the service|
+|description|Short explanation of what's the service's for|
+|website|Documentation URL|
+|icon|CSS class that holds the service's icon. This is commonly used for FontAwesome icons|
+|iconColor|Icon's color, as HEX value. `#AAEEDD`|
 |ownable||
 |stepable||
 |templates||
@@ -92,10 +92,10 @@ servicesAvailable.push(service)
 
 ### Service creation and edition templates
 
-- `detailsView` The main card, when editing the service's details - _example.com/services/gh-ci/<serviceId>/edit_
-- `updateFormPre` Before the main card, when editing the service's details - _example.com/services/gh-ci/<serviceId>/edit_
-- `updateForm` The main card's content, when editing the service's details - _example.com/services/gh-ci/<serviceId>/edit_
-- `updateFormAfter` After the main card's content row, when editing the service's details - _example.com/services/gh-ci/<serviceId>/edit_
+- `detailsView` The main card, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
+- `updateFormPre` Before the main card, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
+- `updateForm` The main card's content, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
+- `updateFormAfter` After the main card's content row, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
 - `createFormPre` At the beginning of the main card, when creating a new service - _example.com/services/new/gh-webhooks_
 - `createForm` Right after the service's title, when creating a new service - _example.com/services/new/gh-webhooks_
 - `createFormAfter` after the main card's row, when creating a new service - _example.com/services/new/webform_
