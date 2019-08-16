@@ -38,8 +38,8 @@ This is an example for this file contents, represented in JSON format.
   {
     "_id": "oBoPxzQTu94a5mPdh",
     "stepIndex": 1,
-    "type": <a service name>,
-    "event": <a service's event name>,
+    "type": <preceding service's name>,
+    "event": <preceding service's event name>,
     "createdAt": "2019-08-13T16:50:43.152Z",
     "updatedAt": "2019-08-13T16:50:43.741Z",
     "stepResults": [
