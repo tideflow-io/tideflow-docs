@@ -16,6 +16,12 @@
 }
 /* Body */
 
+.notice.notice-attention {
+  padding: 20px;
+  background: lightyellow;
+  border: 1px solid yellow;
+}
+
 /* header */
 .fixedHeaderContainer {
   height: 70px;
