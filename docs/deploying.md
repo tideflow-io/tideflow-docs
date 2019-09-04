@@ -26,3 +26,7 @@ MONGO_OPLOG_URL
 # Example: https://subdomain.example.com
 ROOT_URL
 ```
+
+---
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tideflow-io/tideflow)
