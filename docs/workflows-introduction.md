@@ -1,5 +1,5 @@
 ---
-id: workflows
+id: workflows-introduction
 title: Workflows
 ---
 

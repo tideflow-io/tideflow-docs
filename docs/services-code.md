@@ -12,6 +12,11 @@ data, and then submits it to a third party service.
 
 The result of the whole process will be sent to your workflow's next step.
 
+<div class="notice notice-attention">
+Code snippets service runs in top of <a href="https://www.npmjs.com/package/nodesfc" target="_blank">nodesfc</a>, a NodeJS package that
+allows you to specify npm dependencies in the code itself. When your script runs, nodesfc installs the dependencies by itself.
+</div>
+
 ### How to receive data from previous steps connected to my Code snippet
 
 All results from previous steps are stored as a JSON array in a temporal file
@@ -58,7 +63,8 @@ In the previous representation, we can see multiple things:
 - The list of execution logs from preceding steps (the root array) only contains
 one single element. This means that the step only had one preceding step connected
 to it.
-- The predecesor task is the 2nd step in the workflow schema (apart from the trigger).
+- Given `stepIndex = 1`, we can say that the predecesor task is the 2nd step in
+the workflow (apart from the trigger).
 - The preceding step service name is `<a service name>`, and the event executed
 `<a service's event name>`.
 - The execution of the previous step fired on `createdAt` and finished at `updatedAt`

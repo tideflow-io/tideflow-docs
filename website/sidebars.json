@@ -2,13 +2,12 @@
   "docs": {
     "Introduction": [
       "introduction",
-      "contribute"],
-    "Concepts": [
-      "concepts",
-      "workflows",
-      "services",
-      "channels",
-      "executions"],
+      "contribute"
+    ],
+    "Workflows": [
+      "workflows-introduction",
+      "workflows-executions"
+    ],
     "Services": [
       "services-introduction",
       "services-agent",
@@ -21,7 +20,8 @@
       "services-pdf",
       "services-webforms",
       "services-webparsy",
-      "services-rss"],
+      "services-rss"
+    ],
     "Developer guide": [
       "developers",
       "installation-instructions",
@@ -30,8 +30,10 @@
       "jobs"
     ],
     "System Administrator Guide": [
-      "devops",
-      "deploying"],
-    "Community": ["code-of-conduct"]
+      "deploying"
+    ],
+    "Community": [
+      "code-of-conduct"
+    ]
   }
 }
