@@ -28,4 +28,4 @@ But not only that. Jon can also enable or disable a workflow to prevent it from 
 
 Tideflow solves this by using hooks when the user either create, update or delete a workflow with the cronjob service as a trigger.
 
-See the working source code.
+[See the working source code](https://github.com/tideflow-io/tideflow/blob/e656c0fb62e89b2e66c3c59620375e686283b0a0/imports/services/cron/server/service.js#L42).
