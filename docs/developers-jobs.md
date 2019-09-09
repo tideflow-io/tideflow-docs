@@ -1,5 +1,5 @@
 ---
-id: jobs
+id: developers-jobs
 title: Jobs
 ---
 

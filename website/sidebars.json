@@ -25,13 +25,12 @@
     ],
     "Developer guide": [
       "developers",
-      "installation-instructions",
-      "securing-install",
-      "creating-services",
-      "jobs"
+      "developers-creating-services",
+      "developers-jobs"
     ],
     "System Administrator Guide": [
-      "deploying"
+      "deploying",
+      "securing-install"
     ],
     "Community": [
       "code-of-conduct"
