@@ -5,29 +5,30 @@ title: Developers Guide
 
 ## Quick start
 
-The installation is a pretty easy process. Once you have MeteorJS installed,
-you are good to go.
+Installing Tideflow is pretty simple. Once you have MeteorJS installed, you are
+good to go.
 
-MeteorJS will create and launch an isolated MongoDB database within the
-project's root folder.
+MeteorJS will create and launch an isolated MongoDB and Tideflow.
 
 ### Installation
 
 1. Requirements:
 
 - Install MeteorJS [OSX / Linux / Windows](https://www.meteor.com/install)
-- A GitHub account with a [configured SSH key](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
-
-2. Before you get started, make sure you are not running any applications on
-the default ports: `3000`, `3001`
+- If you want to contribute to Tideflow's source code you will also need a
+GitHub account with a [configured SSH key](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 3. Clone [**Tideflow**](https://github.com/tideflow-io/tideflow)
 
 ```sh
+# Via SSH - method for contributors
 git clone git@github.com:tideflow-io/tideflow.git
+
+# Via HTTPS
+git clone https://github.com/tideflow-io/tideflow.git
 ```
 
-4. You are all setup, cd into the platform's folder and execute meteor.
+4. You are all setup, cd into the Tideflow's folder and execute meteor.
 
 ```sh
 cd tideflow
@@ -43,4 +44,11 @@ The first time you try to login, Tideflow will open the installation
 screen. This is a single step process that will create your first user
 credentials as well as some other necessary settings.
 
-The next time you want to execute the platform locally, simply repeat the 4th step.
+The next time you want to execute Tideflow locally, simply run `meteor`
+
+---
+
+## Contributing
+
+Visit the [contribute section](/docs/contribute) to get started making TideFlow
+a greater tool.
