@@ -1,8 +1,7 @@
 {
   "docs": {
     "Introduction": [
-      "introduction",
-      "contribute"
+      "introduction"
     ],
     "Workflows": [
       "workflows-introduction",
@@ -25,6 +24,7 @@
     ],
     "Developer guide": [
       "developers",
+      "contribute",
       "developers-creating-services",
       "developers-jobs"
     ],
