@@ -9,6 +9,11 @@ workflows. This is possible via an additional tool called: Tideflow's agent tool
 This all means that, even if you have Tideflow installed in a cloud server, you
 can run commands as part of your flow steps in your office or home computers.
 
+### Getting started
+
+Please refer to [@tideflowio/tideflow-agent](https://www.npmjs.com/package/@tideflowio/tideflow-agent)
+in order to get started dwith Tideflow's agent and its installation.
+
 ### How to receive data from previous steps connected to my Agent
 
 All results from previous steps are sent to your step's command via a parameter
