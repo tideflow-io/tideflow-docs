@@ -42,18 +42,10 @@ This is an example for this file contents, represented in JSON format.
     "event": <preceding service's event name>,
     "createdAt": "2019-08-13T16:50:43.152Z",
     "updatedAt": "2019-08-13T16:50:43.741Z",
-    "stepResults": [
-      {
-        "type": "object",
-        "data": { "character": "Jon Snow" }
-      },
-      {
-        "type": "file",
-        "data": "truncated",
-        "path": "/var/folders/5s/tjnclfh50s1_cvxd7d5gr8wm0000gn/T/1565715043767-bill.pdf",
-        "fileName": "bill.pdf"
-      }
-    ]
+    "stepResult": {
+      "type": "object",
+      "data": { "character": "Jon Snow" }
+    }
   }
 ]
 ```
