@@ -58,13 +58,13 @@
 <p>When adding your web scraper step to your workflows, you must define the web scraping steps via the UI.</p>
 <p>A quick example that scrapes Madrid’s temperature would be:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">jobs:</span>
-<span class="hljs-attr">  main:</span>
-<span class="hljs-attr">    steps:</span>
-<span class="hljs-attr">      - goto:</span> <span class="hljs-attr">https://weather.com/es-ES/tiempo/hoy/l/SPXX0050:1:SP</span>
-<span class="hljs-attr">      - text:</span>
-<span class="hljs-attr">          selector:</span> <span class="hljs-string">.today_nowcard-temp</span> <span class="hljs-string">span</span>
-<span class="hljs-attr">          type:</span> <span class="hljs-string">number</span>
-<span class="hljs-attr">          as:</span> <span class="hljs-string">madrid_temperature</span>
+  <span class="hljs-attr">main:</span>
+    <span class="hljs-attr">steps:</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">goto:</span> <span class="hljs-string">https://weather.com/es-ES/tiempo/hoy/l/SPXX0050:1:SP</span>
+      <span class="hljs-bullet">-</span> <span class="hljs-attr">text:</span>
+          <span class="hljs-attr">selector:</span> <span class="hljs-string">.today_nowcard-temp</span> <span class="hljs-string">span</span>
+          <span class="hljs-attr">type:</span> <span class="hljs-string">number</span>
+          <span class="hljs-attr">as:</span> <span class="hljs-string">madrid_temperature</span>
 </code></pre>
 <p>Tideflow will send the result of the web scraping process to your workflow’s next step.</p>
 <p>Please visit WebParsy documentation to know more about its possibilities and its examples.</p>
