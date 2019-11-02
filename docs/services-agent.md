@@ -3,33 +3,32 @@ id: services-agent
 title: Agent
 ---
 
-The Agent service allows you to run commands in your computers as part of your
-workflows. This is possible via an additional tool called: Tideflow's agent tool.
+Tideflow's Agent allows you to run commands in you computer as part of your workflows. 
 
-This all means that, even if you have Tideflow installed in a cloud server, you
-can run commands as part of your flow steps in your office or home computers.
+This means that even if you are running Tideflow in a cloud server, you can run commands
+as part of your workflow steps in your office or home computers.
 
 ### Getting started
 
 Please refer to [@tideflowio/tideflow-agent](https://www.npmjs.com/package/@tideflowio/tideflow-agent)
 in order to get started with Tideflow's agent and its installation.
 
-### How to receive data from previous steps connected to my Agent
+### Passing data to the command
 
-All results from previous steps are sent to your step's command via a parameter
-`--tf_previous`. For example, if your command is
+The result from previous steps are sent to your task's command via the parameter
+`--tf_previous`. For example, let's say your task command is
 
 ```bash
 meow
 ```
 
-your local agent will execute it as:
+then the Agent will execute it as:
 
 ```bash
 meow --tf_previous <previous-steps-output>
 ```
 
-The previous step's output is an stringified representation of the following
+The previous task's output is an stringified representation of the following
 JavaScript array:
 
 ```json
@@ -41,12 +40,11 @@ JavaScript array:
 ]
 ```
 
-As steps can produce multiple results, each one of this results is represented
-as an arrray element with two root properties:
+Each of the predecesor tasks results is represented as an arrray element with two root properties:
 
 - **type**: an string that defines the kind of data retuned by the previous
 step (object, file, etc)
-- **data**: an object containing the "raw" result.
+- **data**: an object containing the task's result.
 
 ### How the Agent service works internally
 
