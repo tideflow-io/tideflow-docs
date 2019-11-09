@@ -3,15 +3,16 @@ id: workflows-introduction
 title: Workflows
 ---
 
-A workflow is a set of tasks to accomplish a certain task. In Tideflow, they
-happen based on a certain event. We call this event a "trigger".
+A workflow is a set of tasks to accomplish a certain thing or
+produce a desired output. In Tideflow, workflows happen based on a
+certain event. We call this event a "trigger".
 
-Tideflow allows you to create as many as you want.
+Tideflow allows you to create as many workflows as you want.
 
 ## Example
 
-Let's make an example. Say you want to automate generating and sending
-bills to your customers and to your accountant.
+Say you want to automate generating and sending bills to your
+customers and to your accountant.
 
 Doing this could be the result of the following tasks:
 
