@@ -3,9 +3,10 @@ id: workflows-executions
 title: Executions
 ---
 
-Tideflow allows you to track the progress of workflows in realtime. When a
-workflow's trigger is fired, Tideflow creates a history of its progress.
+When a workflows is executed, Tideflow tracks its progress from start to finish.
 
-This allows you to know how many times a workflow got executed, if it finished
-executing, how long did it take to complete, track successes and failures and
-each step progress with its logs.
+This monitorization process is transparent for the users, and Tideflow presents
+them the workflow's journey (we call it "the workflow's execution) in realtime.
+
+Users can also opt-in to receive a daily or weekly sumary by email of all their
+workflows activity.

@@ -5,7 +5,9 @@ title: PDF
 
 The PDF service allows you to generate & fill PDF files that you can use in your workflows.
 
-## Text
+## Types of PDF files
+
+### Text
 
 Required details:
 
@@ -13,7 +15,7 @@ Required details:
 
 [Example file](/services/pdf/text.pdf) / [Example input](https://github.com/tideflow-io/tideflow/blob/master/private/pdfs/text.html)
 
-## Bill
+### Bill
 
 Required details:
 
@@ -21,7 +23,7 @@ Required details:
 - **Notes** a list of notes to be shown 
 - **Comapny** the sender's details (see the example below)
 - **Customer** addressee's detatils
-- **Itemss** list of billed items, with name and price
+- **Items** list of billed items, with name and price
 
 Additional details are:
 

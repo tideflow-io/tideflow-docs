@@ -4,13 +4,12 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-Tideflow is a tool for designing, automating and monitoring workflows in real time.
+Using Tideflow, you can design, automate and monitor your workflows in realtime.
 
 Tideflow integrates with Github, Bitbucket, RSS channels and many others.
+Including its own agent. And its open source!
+
+In this website, you will find all documentation to start using it, and to
+contribute to the project.
 
 <img src="https://raw.githubusercontent.com/tideflow-io/tideflow-website/master/website/static/img/D43dLHRXsAIwXDs.jpg" style="border:1px solid gray;">
-
-## Developer Resources
-
-- Developer guide: https://docs.tideflow.io/docs/developers
-- Contribute: https://docs.tideflow.io/docs/contribute
