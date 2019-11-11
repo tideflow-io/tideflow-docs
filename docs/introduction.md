@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 Using Tideflow, you can design, automate and monitor your workflows in realtime.
 
-Tideflow integrates with Github, Bitbucket, RSS channels and many others.
+Tideflow integrates with GitHub, Bitbucket, RSS channels and many others.
 Including its own agent. And its open source!
 
 In this website, you will find all documentation to start using it, and to

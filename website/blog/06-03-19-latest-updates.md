@@ -16,4 +16,4 @@ Other new features are:
 *   [Webforms](https://docs.tideflow.io/docs/services-webforms) are now available. This service allows you to create custom forms that you can share with others.
 *   …
 
-If you want to contribute with Tideflow, take a look to [https://docs.tideflow.io/docs/contribute](https://docs.tideflow.io/docs/contribute) You can start as simple as adding a star on Github for [the main repository](https://github.com/tideflow-io/tideflow), it really helps a lot!
+If you want to contribute with Tideflow, take a look to [https://docs.tideflow.io/docs/contribute](https://docs.tideflow.io/docs/contribute) You can start as simple as adding a star on GitHub for [the main repository](https://github.com/tideflow-io/tideflow), it really helps a lot!

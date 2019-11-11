@@ -15,7 +15,7 @@ There are many ways you ca contribute to the project.
 By using it, helping to find and fixing bugs or maintaining its source code
 and publish its future forward.
 
-Adding an star on Github for [the main repository](https://github.com/tideflow-io/tideflow)
+Adding an star on GitHub for [the main repository](https://github.com/tideflow-io/tideflow)
 also helps a lot!
 
 There are some tasks on the backlog. Check https://github.com/tideflow-io/tideflow/issues

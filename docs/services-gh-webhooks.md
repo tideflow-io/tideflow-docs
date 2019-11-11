@@ -1,8 +1,8 @@
 ---
 id: services-gh-webhooks
-title: Github webhooks
+title: GitHub webhooks
 ---
 
-Github Webhooks allows you to trigger workflows based on certain events on
-GitHub.com. Webhooks can be used to update an external issue tracker,
+GitHub Webhooks allows you to trigger workflows based on certain events on
+github.com. Webhooks can be used to update an external issue tracker,
 trigger builds, update a backup mirror, or even deploy to your production server.

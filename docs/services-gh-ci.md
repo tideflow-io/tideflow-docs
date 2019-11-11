@@ -1,9 +1,9 @@
 ---
 id: services-gh-ci
-title: Github CI
+title: GitHub CI
 ---
 
-With Github's CI service, you can run your source code's CI with Tideflow and
+With GitHub's CI service, you can run your source code's CI with Tideflow and
 the [agent service](/docs/services-agent).
 
 ## How to use it
@@ -30,7 +30,7 @@ Select "Any account" in the "Where can this GitHub App be installed?" question.
 
 The application is almost ready. Click on *Create GitHub App.*
 
-At this point, you need to copy 3 things from the newly created Github application, into this page. This are:
+At this point, you need to copy 3 things from the newly created GitHub application, into this page. This are:
 
 - The **App ID**
 - The **Client ID**
