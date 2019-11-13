@@ -7,9 +7,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js 12.13
@@ -25,4 +23,4 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.GH_ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./website
+        PUBLISH_DIR: ./website/build
