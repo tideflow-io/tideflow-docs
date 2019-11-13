@@ -16,6 +16,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.13
+    - name: install site
+      run: |
+        npm install --prefix ./website
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
