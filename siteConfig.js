@@ -18,7 +18,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'tideflow-website',
+  projectName: 'docs.tideflow.io',
   cname: 'docs.tideflow.io',
   organizationName: 'tideflow-io',
 
