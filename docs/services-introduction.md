@@ -6,8 +6,8 @@ title: Introduction
 Services are the gem of Tideflow.
 
 They provide Tideflow with compatibility and integration with third-party
-services, allow workflows to create files, send emails, etc., from tasks that
-users define as part of their processes.
+services, allow workflows to create files, send emails, etc., all from the
+actions that users define as part of their processes.
 
 Services can be classified as two types.
 

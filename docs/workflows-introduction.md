@@ -5,8 +5,8 @@ title: Workflows
 
 A workflow is a process you want to automate.
 
-In Tideflow, this are a set of tasks to accomplish your goal or produce a
-desired output. 
+In Tideflow, this are a set of actions to accomplish your goal or produce a
+desired output.
 
 Workflows happen are are executed when certain thing happens. We call this: the
 trigger, and can be either an specific time in which something must happen, or
