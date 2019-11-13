@@ -18,6 +18,6 @@ jobs:
         node-version: 12.13
     - name: npm install, build, and test
       run: |
-        cd website && yarn install && yarn run publish-gh-pages
+        cd website && yarn install && GIT_USER=joseconstela yarn run publish-gh-pages
       env:
         CI: true
