@@ -25,4 +25,4 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.GH_ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./website/build/tideflow-website
+        PUBLISH_DIR: ./website
