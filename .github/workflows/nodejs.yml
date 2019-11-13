@@ -19,6 +19,7 @@ jobs:
     - name: install site
       run: |
         npm install --prefix ./website
+        npm run build --prefix ./website
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2.5.0
       env:
