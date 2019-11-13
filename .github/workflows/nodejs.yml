@@ -21,4 +21,4 @@ jobs:
       env:
         ACTIONS_DEPLOY_KEY: ${{ secrets.GH_ACTIONS_DEPLOY_KEY }}
         PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./public
+        PUBLISH_DIR: ./website
