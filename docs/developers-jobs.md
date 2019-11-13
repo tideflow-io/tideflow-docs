@@ -4,7 +4,7 @@ title: Jobs
 ---
 
 Tideflow have an embeeded job queue sytem in order to execute the workflows 
-actions, sending digest emails and many more.
+actions, sending digest emails and more.
 
 The list of jobs are:
 
