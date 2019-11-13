@@ -16,11 +16,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 12.13
-    - name: npm install, build, and test
-      run: |
-        git config --global user.email "joseconstela@users.noreply.github.com"
-        git config --global user.name "Jose Constela"
-        echo "machine github.com login joseconstela password ${{ secrets.GH_ACTIONS_DEPLOY_KEY }}" > ~/.netrc
-        cd website && yarn install && GIT_USER=joseconstela yarn run publish-gh-pages
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2.5.0
       env:
-        CI: true
+        ACTIONS_DEPLOY_KEY: ${{ secrets.GH_ACTIONS_DEPLOY_KEY }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: ./public
