@@ -25,6 +25,10 @@ MONGO_OPLOG_URL
 # The site's main url
 # Example: https://subdomain.example.com
 ROOT_URL
+
+# The JWT secret for file url (downloads) tokens.
+# Example: 3r4t678loiyutr367
+JWT_SECRET
 ```
 
 ---
