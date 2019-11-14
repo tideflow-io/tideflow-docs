@@ -31,8 +31,8 @@ ROOT_URL
 
 For a fully operational Tideflow, you need to have access and exposed the following ports via your firewall:
 
-- `3000` (you can customize this via `PORT` environemnt variable) The port the app listens on.
-- `1337` (you can customize this via `TF_AGENT_PORT` environemnt variable) The port the Agent Server listens on.
+- `3000` (you can customize this via `PORT` environment variable) The port the app listens on.
+- `1337` (you can customize this via `TF_AGENT_PORT` environment variable) The port the Agent Server listens on.
 
 ---
 
