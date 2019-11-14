@@ -27,6 +27,13 @@ MONGO_OPLOG_URL
 ROOT_URL
 ```
 
+## Network requirements
+
+For a fully operational Tideflow, you need to have access and exposed the following ports via your firewall:
+
+- `3000` (you can customize this via `PORT` environemnt variable) The port the app listens on.
+- `1337` (you can customize this via `TF_AGENT_PORT` environemnt variable) The port the Agent Server listens on.
+
 ---
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/tideflow-io/tideflow)
