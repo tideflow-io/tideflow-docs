@@ -27,6 +27,7 @@ MONGO_OPLOG_URL
 ROOT_URL
 
 # The JWT secret for file url (downloads) tokens.
+# If not used, a hardcoded value will be used, which could expose your files.
 # Example: 3r4t678loiyutr367
 JWT_SECRET
 ```
