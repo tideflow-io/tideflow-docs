@@ -30,6 +30,14 @@ ROOT_URL
 # If not used, a hardcoded value will be used, which could expose your files.
 # Example: 3r4t678loiyutr367
 JWT_SECRET
+
+# Which port the app should listen.
+# Example: 3000
+PORT
+
+# Which port the agent's service should listen.
+# Example: 1337
+TF_AGENT_PORT
 ```
 
 ## Network requirements
