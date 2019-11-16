@@ -11,7 +11,7 @@
       "services-introduction",
       "services-agent",
       "services-cron",
-      "services-email-outgoing",
+      "services-email-outbound",
       "services-endpoints",
       "services-gh-webhooks",
       "services-gh-ci",
@@ -28,8 +28,9 @@
       "developers-jobs"
     ],
     "System Administrator Guide": [
-      "deploying",
-      "securing-install"
+      "sysadmin-deploying",
+      "sysadmin-deploying-docker",
+      "sysadmin-securing-install"
     ],
     "Community": [
       "code-of-conduct"

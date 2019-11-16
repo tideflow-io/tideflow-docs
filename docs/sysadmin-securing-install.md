@@ -1,5 +1,5 @@
 ---
-id: securing-install
+id: sysadmin-securing-install
 title: Securing install
 ---
 
