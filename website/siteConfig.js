@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Tideflow.io', // Title for your website.
-  tagline: 'Tideflow.io',
+  tagline: 'asd',
   url: 'https://docs.tideflow.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -21,6 +21,9 @@ const siteConfig = {
   projectName: 'docs.tideflow.io',
   cname: 'docs.tideflow.io',
   organizationName: 'tideflow-io',
+
+  docsSideNavCollapsible: true,
+  scrollToTop: true,
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -45,14 +48,15 @@ const siteConfig = {
   /* Custom fonts for website */
   fonts: {
     mainFont: [
-      "Moli",
+      "Lato",
       // "Times New Roman",
       // "Serif"
     ]
   },
 
   stylesheets: [
-    "https://fonts.googleapis.com/css?family=Muli&display=swap"
+    '/css/copycode.css',
+    "https://fonts.googleapis.com/css?family=Lato&display=swap"
   ],
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -63,8 +67,14 @@ const siteConfig = {
     theme: 'atom-one-dark',
   },
 
+  usePrism: true,
+
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/js/copycode.js',
+    'https://buttons.github.io/buttons.js'
+  ],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

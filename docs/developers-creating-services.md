@@ -3,6 +3,8 @@ id: developers-creating-services
 title: Creating Services
 ---
 
+## Developing new integrations
+
 _Documentation in progress_
 
 ## Structure
@@ -22,7 +24,7 @@ _Documentation in progress_
 
 ## Service.js
 
-```javascript
+```js
 import { servicesAvailable } from '/imports/services/_root/client'
 
 const service = {
