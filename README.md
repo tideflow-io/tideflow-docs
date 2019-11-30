@@ -1,6 +1,6 @@
 # <a href='https://tideflow.io'><img src='https://raw.githubusercontent.com/tideflow-io/tideflow/b7d354c8d08d5934dcd2d351951eba29d84ed8dd/readme.jpg' width='260' alt='Tideflow.io'></a>
 
-> This repository hosts the website, documentation and blog for [Tideflow.io](https://tideflow.io).
+> This repository hosts the documentation for [Tideflow.io](https://tideflow.io).
 
 Built with https://docusaurus.io
 
