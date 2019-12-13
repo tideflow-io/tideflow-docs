@@ -93,6 +93,11 @@ const siteConfig = {
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   repoUrl: 'https://github.com/tideflow-io/tideflow',
+
+  algolia: {
+    apiKey: '5923b094c79ebc4645a612dcce757e35',
+    indexName: 'tideflow',
+  }
 };
 
 module.exports = siteConfig;
