@@ -10,8 +10,15 @@ workflow's tasks.
 It will take all the necessary data from your workflow tasks and will report
 its results back to Tideflow.
 
+## What can I use it for?
+
 You can run NodeJS scripts and terminal commands (Windows, MacOS and Linux). This
 allows you to run code privately in your own terms inside your firewall'd area.
+
+It also integrates seamlessly with the integration for GitHub CI. This allows to
+run Continious Integration commands in your premises.
+
+## Working with generated files
 
 Some actions can generate files, for example the PDF files. The tasks executed
 using Tideflow's agent will be able to process and make use of those files. TideFlow
