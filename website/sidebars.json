@@ -1,11 +1,10 @@
 {
   "docs": {
-    "Introduction": [
-      "introduction"
-    ],
-    "Workflows": [
-      "workflows-introduction",
-      "workflows-executions"
+    "Get Sarted": [
+      "getstarted-introduction",
+      "getstarted-install",
+      "getstarted-first-workflow",
+      "getstarted-monitor"
     ],
     "Services": [
       "services-introduction",
@@ -22,12 +21,11 @@
       "services-rss"
     ],
     "Developer guide": [
-      "developers",
       "contribute",
       "developers-creating-services",
       "developers-jobs"
     ],
-    "System Administrator Guide": [
+    "DevOps Guide": [
       "sysadmin-deploying",
       "sysadmin-deploying-docker",
       "sysadmin-securing-install"

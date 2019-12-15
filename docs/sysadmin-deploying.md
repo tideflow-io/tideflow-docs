@@ -1,6 +1,6 @@
 ---
 id: sysadmin-deploying
-title: Deploying
+title: Running Tideflow
 ---
 
 You can run Tideflow anywhere, like any other MeteorJS or NodeJS application. 

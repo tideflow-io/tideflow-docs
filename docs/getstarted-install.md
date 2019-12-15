@@ -1,16 +1,14 @@
 ---
-id: developers
-title: Developers Guide
+id: getstarted-install
+title: Installing Tideflow
 ---
-
-## Quick start
 
 Installing Tideflow is pretty simple. Once you have MeteorJS installed, you are
 good to go.
 
 MeteorJS will create and launch an isolated MongoDB and Tideflow.
 
-### Installation
+## Installation
 
 1. Requirements:
 
@@ -45,10 +43,3 @@ screen. This is a single step process that will create your first user
 credentials as well as some other necessary settings.
 
 The next time you want to execute Tideflow locally, simply run `meteor`
-
----
-
-## Contributing
-
-Visit the [contribute section](/docs/contribute) to get started making TideFlow
-a greater tool.
