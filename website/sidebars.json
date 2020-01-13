@@ -26,6 +26,9 @@
       "developers-creating-services",
       "developers-jobs"
     ],
+    "API": [
+      "api"
+    ],
     "DevOps Guide": [
       "sysadmin-deploying",
       "sysadmin-deploying-docker",
