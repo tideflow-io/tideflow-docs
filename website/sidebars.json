@@ -27,7 +27,8 @@
       "developers-jobs"
     ],
     "API": [
-      "api"
+      "api",
+      "api-authentication"
     ],
     "DevOps Guide": [
       "sysadmin-deploying",
