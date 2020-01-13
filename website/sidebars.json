@@ -4,7 +4,8 @@
       "getstarted-introduction",
       "getstarted-install",
       "getstarted-first-workflow",
-      "getstarted-monitor"
+      "monitor",
+      "files"
     ],
     "Services": [
       "services-introduction",
