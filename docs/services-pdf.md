@@ -32,8 +32,6 @@ The following template will generate [this PDF file](/services/pdf/pqi-pqiwasp6y
 <p>...</p>
 ```
 
-
-
 Tideflow users Handlebars to create fill details in your PDF files. If you are
 interested in knowing more about Handlebars, check its website:
 [handlebarsjs.com](https://handlebarsjs.com/)
