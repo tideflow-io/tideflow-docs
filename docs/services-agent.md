@@ -1,9 +1,9 @@
 ---
 id: services-agent
-title: Tideflow's agent
+title: Self-hosted runner
 ---
 
-Tideflow's Agent is a micro software you can install in your own premises (your
+Tideflow's Self-hosted Runner is a micro software you can install in your own premises (your
 own computer, your company's servers, etc) where Tideflow can run some of your
 workflow's tasks.
 
@@ -26,7 +26,7 @@ will expose then via a private URL so your scripts can download them.
 
 ---
 
-_Note the Agent requires to have NodeJS installed in the machine intended to
+_Note the Self-hosted Runners require to have NodeJS installed in the machine intended to
 execute the agent_
 
 Read [tideflow-agent's cli README](https://raw.githubusercontent.com/tideflow-io/tideflow-agent/master/README.md) to learn more about the cli tool and how to use it.
