@@ -51,3 +51,13 @@ them in your files collection.
 
 Other integrations are compatible with the Files functionality. For example you
 can create [PDF from HTML templates](/docs/services-pdf).
+
+<br>
+
+When you create a file, you can now share it publicly with the click of a button.
+
+<figure>
+  <img src="/img/share-files-publicly.webp"
+    style="border:1px solid gray;" />
+  <figcaption>Fig.3 - Sharing files publicly.</figcaption>
+</figure>
