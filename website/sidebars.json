@@ -9,6 +9,7 @@
     ],
     "Services": [
       "services-introduction",
+      "services-aws",
       "services-agent",
       "services-cron",
       "services-email-outbound",
