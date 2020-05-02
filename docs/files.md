@@ -3,9 +3,15 @@ id: files
 title: Create and connect files
 ---
 
-Users and workflows can create files and connect them to their workflows.
+You and your workflows can create files and connect them to their workflows, 
+and share them publicly. For example you can create a HTML file with some
+Javascript on it, directly from Tideflow’s UI, and others can open it as a
+webpage.
+
 A couple of use cases:
 
+- You can create an one-page-application with HTML and JavaScript, send it to
+others, and let them interact with your workflows, IoT devices, etc.
 - You can upload a file to Tideflow, for example, a greeting PDF for new users.
 Then, make your workflow to send it you your users when they signup to your
 website.
