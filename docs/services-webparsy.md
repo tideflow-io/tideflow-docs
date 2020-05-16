@@ -3,13 +3,14 @@ id: services-webparsy
 title: Web scraping
 ---
 
-Tideflow integrates with [webParsy](https://github.com/joseconstela/webparsy). An easy to use web scraper written in NodeJS that uses YAML definitions.
+Tideflow integrates with [webParsy](https://github.com/joseconstela/webparsy). An easy 
+to use web scraper that uses YAML definitions.
 
-With WebParsy's service, you can obtain data from websites and use it as part of
-your processes logic.
+WebParsy's service let's your workflows obtain data from websites and use it as part the
+processes logic.
 
-When adding your web scraper step to your workflows, you must define the web
-scraping tasks via the UI.
+When adding your web scraper step to your workflows, you must define the web scraping
+steps.
 
 A quick example that scrapes Madrid’s temperature would be:
 
