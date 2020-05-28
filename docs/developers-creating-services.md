@@ -49,10 +49,10 @@ An example of the service's client service.js file could be the following:
 import { servicesAvailable } from '/imports/services/_root/client'
 
 const service = {
-  name: 'agent',
-  humanName: 's-agent.name',
-  description: 's-agent.description',
-  website: 'https://tideflow.io/docs/services-agent',
+  name: 'myservice',
+  humanName: 's-myservice.name',
+  description: 's-myservice.description',
+  website: 'https://tideflow.io/docs/services-myservice',
   icon: 'fas fa-save',
   iconColor: '#3498DB',
   ownable: true,
@@ -85,7 +85,7 @@ module.exports.service = service
 servicesAvailable.push(service)
 ```
 
-*Service definition properties*
+*Client service Properties*
 
 |Property|Description|Notes|
 |---|---|---|
@@ -97,23 +97,23 @@ servicesAvailable.push(service)
 |iconColor|Icon's color, as HEX value. `#AAEEDD`|required|
 |ownable|Indicates if the user can create a integration that can be shared across multiple workflows.||
 |stepable|Indicates if the service can be used as workflow tasks, other than as a trigger||
-|templates|Set of templates for rendering at different stages of user's interaction|optional. See the list below|
+|templates|Set of templates for rendering at different stages of user's interaction|optional. See the list _"Client service templates"_|
 |events||
 
-*Event definition properties*
+*Client events properties*
 
 |Property|Description|
 |---|---|
-|name||
-|humanName||
+|name|Unique slug for the service's event|required|
+|humanName|Translation string for the event's name|required|
 |viewerTitle||
 |inputable||
 |stepable||
-|templates||
+|templates|See the list _"Client event templates"_|
 
 #### Templating
 
-##### Service creation and edition templates
+##### Client service templates
 
 - `detailsView` The main card, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
 - `updateFormPre` Before the main card, when editing the service's details - _example.com/services/gh-ci/serviceId/edit_
@@ -124,11 +124,69 @@ servicesAvailable.push(service)
 - `createFormAfter` after the main card's row, when creating a new service - _example.com/services/new/webform_
 - `triggerEditorPre` on the trigger's card, right after the first dropdown - _example.com/flows/new_
 
-##### Flow editor templates
+##### Client event templates
 
 - `eventConfig` - on the ste's card, right after the steps event selector - _example.com/flows/new_
 
 _Documentation in progress_
 
-
 ### Server
+
+```js
+import { servicesAvailable } from '/imports/services/_root/server'
+
+const service = {
+  name: 'myservice',
+  ownable: true,
+  inputable: false,
+  stepable: true,
+  hooks: {
+    // service: {},
+    // step: {}
+    trigger: {
+      create: {},
+      update: {},
+      delete: {}
+    }
+  },
+  templates: {},
+  events: [
+    {
+      name: 'event-name',
+      capabilities: {
+        runInOneGo: true
+      },
+      callback: async (user, currentStep, executionLogs, execution, logId, cb) => {
+        
+      }
+    }
+  ]
+}
+
+module.exports.service = service
+
+servicesAvailable.push(service)
+```
+
+*Server service properties*
+
+|Property|Description|Notes|
+|---|---|---|
+|name|Unique slug amont other services, used internally to deferentiate it from other services. Must match client's service name|required|
+|ownable|Indicates if the user can create a integration that can be shared across multiple workflows.||
+|stepable|Indicates if the service can be used as workflow tasks, other than as a trigger||
+|hooks||optional. See the table _"Service server hooks"_|
+|events||
+
+*Server event properties*
+
+|Property|Description|
+|---|---|
+|name|Unique slug for the service's event|required|
+|capabilities||
+|callback||
+
+#### Service server hooks
+
+Service hooks lets you trigger custom actions when a user performs certain
+actions that involves your service.
