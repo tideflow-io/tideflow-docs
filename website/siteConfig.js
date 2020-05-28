@@ -10,7 +10,7 @@
 
 const siteConfig = {
   title: 'Tideflow.io', // Title for your website.
-  tagline: 'asd',
+  tagline: 'Documentation for Tideflow.io',
   url: 'https://docs.tideflow.io', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -28,7 +28,8 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     { href: "https://github.com/tideflow-io", label: "Developer Hub" },
-    { href: "https://tideflow.io/contact", label: "Get In Touch" }
+    { href: "https://tideflow.io", label: "Website" },
+    { href: "mailto:tideflowio@gmail.com", label: "Get In Touch" }
   ],
 
   /* path to images for header/footer */
