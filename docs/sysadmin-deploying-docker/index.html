@@ -69,7 +69,6 @@ Docker Hub's image: <code>tideflowio/tideflow</code>.</p>
 <p>An example of the command that launches Tideflow is:</p>
 <pre><code class="hljs css language-bash">docker run -d <span class="token punctuation">\</span> 
   -p <span class="token number">80</span>:3000 <span class="token punctuation">\</span>
-  -p <span class="token number">1337</span>:1337 <span class="token punctuation">\</span>
   -e <span class="token assign-left variable">ROOT_URL</span><span class="token operator">=</span><span class="token string">"&lt;the url where your application will be available>"</span> <span class="token punctuation">\</span>
   -e <span class="token assign-left variable">MONGO_URL</span><span class="token operator">=</span><span class="token string">"&lt;mongodb deployment>"</span> <span class="token punctuation">\</span>
   -e <span class="token assign-left variable">JWT_SECRET</span><span class="token operator">=</span><span class="token string">"&lt;a random security token>"</span> <span class="token punctuation">\</span>
@@ -82,8 +81,6 @@ continuous to run in the background.</li>
 <li><code>-p 80:3000</code> This exposes the port 80 in your server, to the port 3000 in the
 docker container. 3000 is the default port that Tideflow's server listens on. <code>-p host:container</code>.
 <a href="https://docs.docker.com/engine/reference/run/#expose-incoming-ports">more info</a></li>
-<li><code>-p 1337:1337</code> This exposes the port 1337 to the 1337 in the container. This
-is required to connect Tideflow's agent. <a href="/docs/services-agent">More info</a>.</li>
 <li><code>-e ROOT_URL</code> Specifies on which URL Tideflow will be running at.</li>
 <li><code>-e MONGO_URL</code> The URL of your MongoDB deployment. Please note that you can
 and should also use <code>MONGO_OPLOG_URL</code> if your MongoDB is a replica set. This
