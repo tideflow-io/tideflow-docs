@@ -19,7 +19,6 @@ An example of the command that launches Tideflow is:
 ```bash
 docker run -d \ 
   -p 80:3000 \
-  -p 1337:1337 \
   -e ROOT_URL="<the url where your application will be available>" \
   -e MONGO_URL="<mongodb deployment>" \
   -e JWT_SECRET="<a random security token>" \
@@ -33,8 +32,6 @@ continuous to run in the background.
 - `-p 80:3000` This exposes the port 80 in your server, to the port 3000 in the
 docker container. 3000 is the default port that Tideflow's server listens on. `-p host:container`.
 [more info](https://docs.docker.com/engine/reference/run/#expose-incoming-ports)
-- `-p 1337:1337` This exposes the port 1337 to the 1337 in the container. This
-is required to connect Tideflow's agent. [More info](/docs/services-agent).
 - `-e ROOT_URL` Specifies on which URL Tideflow will be running at.
 - `-e MONGO_URL` The URL of your MongoDB deployment. Please note that you can
 and should also use `MONGO_OPLOG_URL` if your MongoDB is a replica set. This

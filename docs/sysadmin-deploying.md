@@ -30,7 +30,6 @@ database with oplog access enabled.
 You need to have access and exposed the following ports via your firewall:
 
 - `3000` _Required._ (you can customize this via `PORT` environment variable) The port the app listens on.
-- `1337` _Optional._ (you can customize this via `TF_AGENT_PORT` environment variable) The port the Agent Server listens on.
 
 ## Environment variables
 
@@ -60,8 +59,4 @@ JWT_SECRET
 # Which port the app should listen.
 # Example: 3000
 PORT
-
-# Which port the agent's service should listen.
-# Example: 1337
-TF_AGENT_PORT
 ```
