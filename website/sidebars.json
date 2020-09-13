@@ -11,6 +11,7 @@
       "services-introduction",
       "services-aws",
       "services-agent",
+      "services-onesignal",
       "services-cron",
       "services-email-outbound",
       "services-endpoints",
