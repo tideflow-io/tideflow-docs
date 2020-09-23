@@ -33,8 +33,8 @@ const siteConfig = {
   ],
 
   /* path to images for header/footer */
-  headerIcon: 'img/tf_logo.png',
-  footerIcon: 'img/tf_logo.png',
+  headerIcon: 'img/favicon.png',
+  footerIcon: 'img/favicon.png',
   favicon: 'img/favicon.png',
 
   /* Colors for website */
