@@ -95,32 +95,32 @@ logic to be executed when a step is triggered.</p>
 <pre><code class="hljs css language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> servicesAvailable <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'/imports/services/_root/client'</span>
 
 <span class="token keyword">const</span> service <span class="token operator">=</span> <span class="token punctuation">{</span>
-  name<span class="token punctuation">:</span> <span class="token string">'myservice'</span><span class="token punctuation">,</span>
-  humanName<span class="token punctuation">:</span> <span class="token string">'s-myservice.name'</span><span class="token punctuation">,</span>
-  description<span class="token punctuation">:</span> <span class="token string">'s-myservice.description'</span><span class="token punctuation">,</span>
-  website<span class="token punctuation">:</span> <span class="token string">'https://tideflow.io/docs/services-myservice'</span><span class="token punctuation">,</span>
-  icon<span class="token punctuation">:</span> <span class="token string">'fas fa-save'</span><span class="token punctuation">,</span>
-  iconColor<span class="token punctuation">:</span> <span class="token string">'#3498DB'</span><span class="token punctuation">,</span>
-  ownable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  stepable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  templates<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-    createForm<span class="token punctuation">:</span> <span class="token string">'servicesWebformCreateForm'</span><span class="token punctuation">,</span>
-    updateForm<span class="token punctuation">:</span> <span class="token string">'servicesWebformUpdateForm'</span><span class="token punctuation">,</span>
-    detailsView<span class="token punctuation">:</span> <span class="token string">'servicesWebformDetailsView'</span><span class="token punctuation">,</span>
-    createFormAfter<span class="token punctuation">:</span> <span class="token string">'servicesWebformCreateFormAfter'</span><span class="token punctuation">,</span>
-    updateFormAfter<span class="token punctuation">:</span> <span class="token string">'servicesWebformUpdateFormAfter'</span><span class="token punctuation">,</span>
-    createFormPre<span class="token punctuation">:</span> <span class="token string">'servicesWebformCreateFormPre'</span><span class="token punctuation">,</span>
-    updateFormPre<span class="token punctuation">:</span> <span class="token string">'servicesWebformUpdateFormPre'</span>
+  name<span class="token operator">:</span> <span class="token string">'myservice'</span><span class="token punctuation">,</span>
+  humanName<span class="token operator">:</span> <span class="token string">'s-myservice.name'</span><span class="token punctuation">,</span>
+  description<span class="token operator">:</span> <span class="token string">'s-myservice.description'</span><span class="token punctuation">,</span>
+  website<span class="token operator">:</span> <span class="token string">'https://tideflow.io/docs/services-myservice'</span><span class="token punctuation">,</span>
+  icon<span class="token operator">:</span> <span class="token string">'fas fa-save'</span><span class="token punctuation">,</span>
+  iconColor<span class="token operator">:</span> <span class="token string">'#3498DB'</span><span class="token punctuation">,</span>
+  ownable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  stepable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  templates<span class="token operator">:</span> <span class="token punctuation">{</span>
+    createForm<span class="token operator">:</span> <span class="token string">'servicesWebformCreateForm'</span><span class="token punctuation">,</span>
+    updateForm<span class="token operator">:</span> <span class="token string">'servicesWebformUpdateForm'</span><span class="token punctuation">,</span>
+    detailsView<span class="token operator">:</span> <span class="token string">'servicesWebformDetailsView'</span><span class="token punctuation">,</span>
+    createFormAfter<span class="token operator">:</span> <span class="token string">'servicesWebformCreateFormAfter'</span><span class="token punctuation">,</span>
+    updateFormAfter<span class="token operator">:</span> <span class="token string">'servicesWebformUpdateFormAfter'</span><span class="token punctuation">,</span>
+    createFormPre<span class="token operator">:</span> <span class="token string">'servicesWebformCreateFormPre'</span><span class="token punctuation">,</span>
+    updateFormPre<span class="token operator">:</span> <span class="token string">'servicesWebformUpdateFormPre'</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  events<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  events<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">{</span>
-      name<span class="token punctuation">:</span> <span class="token string">'execute'</span><span class="token punctuation">,</span>
-      humanName<span class="token punctuation">:</span> <span class="token string">'s-agent.events.command.name'</span><span class="token punctuation">,</span>
-      viewerTitle<span class="token punctuation">:</span> <span class="token string">'s-agent.events.command.title'</span><span class="token punctuation">,</span>
-      inputable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-      stepable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-      templates<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-        eventConfig<span class="token punctuation">:</span> <span class="token string">'servicesAgentExecuteConfig'</span>
+      name<span class="token operator">:</span> <span class="token string">'execute'</span><span class="token punctuation">,</span>
+      humanName<span class="token operator">:</span> <span class="token string">'s-agent.events.command.name'</span><span class="token punctuation">,</span>
+      viewerTitle<span class="token operator">:</span> <span class="token string">'s-agent.events.command.title'</span><span class="token punctuation">,</span>
+      inputable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+      stepable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+      templates<span class="token operator">:</span> <span class="token punctuation">{</span>
+        eventConfig<span class="token operator">:</span> <span class="token string">'servicesAgentExecuteConfig'</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">]</span>
@@ -183,27 +183,27 @@ servicesAvailable<span class="token punctuation">.</span><span class="token func
 <pre><code class="hljs css language-js"><span class="token keyword">import</span> <span class="token punctuation">{</span> servicesAvailable <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'/imports/services/_root/server'</span>
 
 <span class="token keyword">const</span> service <span class="token operator">=</span> <span class="token punctuation">{</span>
-  name<span class="token punctuation">:</span> <span class="token string">'myservice'</span><span class="token punctuation">,</span>
-  ownable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  inputable<span class="token punctuation">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
-  stepable<span class="token punctuation">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
-  hooks<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+  name<span class="token operator">:</span> <span class="token string">'myservice'</span><span class="token punctuation">,</span>
+  ownable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  inputable<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  stepable<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  hooks<span class="token operator">:</span> <span class="token punctuation">{</span>
     <span class="token comment">// service: {},</span>
     <span class="token comment">// step: {}</span>
-    trigger<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-      create<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
-      update<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
-      <span class="token keyword">delete</span><span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+    trigger<span class="token operator">:</span> <span class="token punctuation">{</span>
+      create<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+      update<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+      <span class="token keyword">delete</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  templates<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
-  events<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+  templates<span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+  events<span class="token operator">:</span> <span class="token punctuation">[</span>
     <span class="token punctuation">{</span>
-      name<span class="token punctuation">:</span> <span class="token string">'event-name'</span><span class="token punctuation">,</span>
-      capabilities<span class="token punctuation">:</span> <span class="token punctuation">{</span>
-        runInOneGo<span class="token punctuation">:</span> <span class="token boolean">true</span>
+      name<span class="token operator">:</span> <span class="token string">'event-name'</span><span class="token punctuation">,</span>
+      capabilities<span class="token operator">:</span> <span class="token punctuation">{</span>
+        runInOneGo<span class="token operator">:</span> <span class="token boolean">true</span>
       <span class="token punctuation">}</span><span class="token punctuation">,</span>
-      <span class="token function-variable function">callback</span><span class="token punctuation">:</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">user<span class="token punctuation">,</span> currentStep<span class="token punctuation">,</span> executionLogs<span class="token punctuation">,</span> execution<span class="token punctuation">,</span> logId<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
+      <span class="token function-variable function">callback</span><span class="token operator">:</span> <span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token parameter">user<span class="token punctuation">,</span> currentStep<span class="token punctuation">,</span> executionLogs<span class="token punctuation">,</span> execution<span class="token punctuation">,</span> logId<span class="token punctuation">,</span> cb</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">{</span>
         
       <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
