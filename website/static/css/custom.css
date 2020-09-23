@@ -13,7 +13,7 @@ body {
 .fixedHeaderContainer {
   height: 70px;
   padding: 20px;
-  background-color: #4AA146;
+  background-color: white;
   border-bottom: 1px solid #E9EEF2;
   color: black;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .navigationSlider .slidingNav ul li a {
-  color: #ecf5ec !important;
+  color: black;
 }
 
 .navigationSlider .slidingNav ul li a:hover {
@@ -48,8 +48,8 @@ body {
 }
 
 .fixedHeaderContainer h2 {
-  color: #ecf5ec;
-  font-weight: 400;
+  color: black;
+  font-weight: 500;
 }
 
 .headerWrapper a {
@@ -64,7 +64,7 @@ body {
 }
 
 .navListItemActive a {
-  color: #4AA146 !important;
+  font-weight: bolder;
 }
 
 .toc .toggleNav ul {

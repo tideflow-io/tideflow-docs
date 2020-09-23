@@ -1,13 +1,27 @@
 {
   "docs": {
-    "Get Sarted": [
-      "getstarted-introduction",
+    "👋 Introduction": [
+      "getstarted-introduction"
+    ],
+    "🚀 Get Sarted": [
       "getstarted-install",
       "getstarted-first-workflow",
       "monitor",
       "files"
     ],
-    "Services": [
+    "👩🏽‍💻 Developers guide": [
+      "contribute",
+      "developers-creating-services",
+      "developers-jobs",
+      "api",
+      "code-of-conduct"
+    ],
+    "💽 DevOps Guide": [
+      "sysadmin-deploying",
+      "sysadmin-deploying-docker",
+      "sysadmin-securing-install"
+    ],
+    "🤖 Services": [
       "services-introduction",
       "services-aws",
       "services-agent",
@@ -22,23 +36,6 @@
       "services-webforms",
       "services-webparsy",
       "services-rss"
-    ],
-    "Developer guide": [
-      "contribute",
-      "developers-creating-services",
-      "developers-jobs"
-    ],
-    "API": [
-      "api",
-      "api-authentication"
-    ],
-    "DevOps Guide": [
-      "sysadmin-deploying",
-      "sysadmin-deploying-docker",
-      "sysadmin-securing-install"
-    ],
-    "Community": [
-      "code-of-conduct"
     ]
   }
 }

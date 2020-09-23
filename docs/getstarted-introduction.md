@@ -1,16 +1,19 @@
 ---
 id: getstarted-introduction
-title: Introduction
+title: Overview
 sidebar_label: Introduction
 ---
 
-Using Tideflow, you can design, automate and monitor your workflows in realtime.
+This is the docummentation for Tideflow. An open source GPL-3 licensed node-based automation software.
 
-Tideflow integrates with GitHub, Bitbucket, RSS channels and many others.
-Including its own agent. And its open source!
+Here you find all documentation. From setup to how to use it.
 
-In this website, you will find all documentation to start using it, and to
-contribute to the project.
+Tideflow is a work-in-progress. All contributions are wellcome.
+
+## What is Tideflow?
+
+Tideflow is a workflow automation webtool. It let's you design, automate and
+monitor your workflows in realtime.
 
 <img src="/img/D43dLHRXsAIwXDs.jpg" 
   style="border:1px solid gray;" />
