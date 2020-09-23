@@ -3,7 +3,7 @@
     "👋 Introduction": [
       "getstarted-introduction"
     ],
-    "🚀 Get Sarted": [
+    "🚀 Getting started": [
       "getstarted-install",
       "getstarted-first-workflow",
       "monitor",
@@ -16,7 +16,7 @@
       "api",
       "code-of-conduct"
     ],
-    "💽 DevOps Guide": [
+    "💽 DevOps guide": [
       "sysadmin-deploying",
       "sysadmin-deploying-docker",
       "sysadmin-securing-install"
