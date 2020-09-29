@@ -1,0 +1,212 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Templating system · Tideflow.io</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Tideflow lets you customise your workflow&#x27;s tasks data. This means that instead"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Templating system · Tideflow.io"/><meta property="og:type" content="website"/><meta property="og:url" content="https://docs.tideflow.io/"/><meta property="og:description" content="Tideflow lets you customise your workflow&#x27;s tasks data. This means that instead"/><meta property="og:image" content="https://docs.tideflow.io/img/docusaurus.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://docs.tideflow.io/img/docusaurus.png"/><link rel="shortcut icon" href="/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-dark.min.css"/><link rel="stylesheet" href="/css/copycode.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap"/><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script><script type="text/javascript" src="/js/copycode.js"></script><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="https://unpkg.com/vanilla-back-to-top@7.1.14/dist/vanilla-back-to-top.min.js"></script><script>
+        document.addEventListener('DOMContentLoaded', function() {
+          addBackToTop(
+            {"zIndex":100}
+          )
+        });
+        </script><script src="/js/scrollSpy.js"></script><link rel="stylesheet" href="/css/prism.css"/><link rel="stylesheet" href="/css/main.css"/><script src="/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/"><img class="logo" src="/img/favicon.png" alt="Tideflow.io"/><h2 class="headerTitleWithLogo">Tideflow.io</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://github.com/tideflow-io" target="_self">Developer Hub</a></li><li class=""><a href="https://tideflow.io" target="_self">Website</a></li><li class=""><a href="mailto:tideflowio@gmail.com" target="_self">Get In Touch</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Search" title="Search"/></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>🚀 Getting started</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">👋 Introduction<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/getstarted-introduction">Introduction</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">🚀 Getting started<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/getstarted-install">Installing Tideflow</a></li><li class="navListItem"><a class="navItem" href="/docs/getstarted-first-workflow">Your first workflow</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/docs/getstarted-templating">Templating</a></li><li class="navListItem"><a class="navItem" href="/docs/files">Create and connect files</a></li><li class="navListItem"><a class="navItem" href="/docs/monitor">Monitoring flows executions</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">👩🏽‍💻 Developers guide<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/contribute">Contributing</a></li><li class="navListItem"><a class="navItem" href="/docs/developers-creating-services">Creating Services</a></li><li class="navListItem"><a class="navItem" href="/docs/developers-jobs">Jobs</a></li><li class="navListItem"><a class="navItem" href="/docs/api">Tideflow api</a></li><li class="navListItem"><a class="navItem" href="/docs/code-of-conduct">Code of Conduct</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">💽 DevOps guide<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/sysadmin-deploying">Running Tideflow</a></li><li class="navListItem"><a class="navItem" href="/docs/sysadmin-deploying-docker">Docker</a></li><li class="navListItem"><a class="navItem" href="/docs/sysadmin-securing-install">Securing install</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">🤖 Services<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/docs/services-introduction">Introduction</a></li><li class="navListItem"><a class="navItem" href="/docs/services-aws">AWS</a></li><li class="navListItem"><a class="navItem" href="/docs/services-agent">Self-hosted runner</a></li><li class="navListItem"><a class="navItem" href="/docs/services-onesignal">OneSignal</a></li><li class="navListItem"><a class="navItem" href="/docs/services-cron">Cron</a></li><li class="navListItem"><a class="navItem" href="/docs/services-email-outbound">Emails (outbound)</a></li><li class="navListItem"><a class="navItem" href="/docs/services-endpoints">Endpoints</a></li><li class="navListItem"><a class="navItem" href="/docs/services-gh-webhooks">GitHub webhooks</a></li><li class="navListItem"><a class="navItem" href="/docs/services-gh-ci">GitHub CI</a></li><li class="navListItem"><a class="navItem" href="/docs/services-bb-webhooks">Bitbucket webhooks</a></li><li class="navListItem"><a class="navItem" href="/docs/services-pdf">PDF</a></li><li class="navListItem"><a class="navItem" href="/docs/services-webforms">Webform</a></li><li class="navListItem"><a class="navItem" href="/docs/services-webparsy">Web scraping</a></li><li class="navListItem"><a class="navItem" href="/docs/services-rss">RSS</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/tideflow-io/tideflow-docs/edit/master/docs/getstarted-templating.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Templating system</h1></header><article><div><span><p>Tideflow lets you customise your workflow's tasks data. This means that instead
+of hardcoding what a task is doing, it can intake data from previous tasks
+results.</p>
+<p>Let's put a example: you want to create a PDF file, but it needs to contain the
+name of a user, which is provided by the workflow's endpoint trigger: an endpoint.</p>
+<figure>
+  <img src="/img/templating/pdf_example.png" 
+    style="border:1px solid gray;" />
+</figure>
+<p>Instead of hardcoding the user's name in the PDF template, your template can
+take the user's name and other details provided by the endpoint's POST body.</p>
+<p><strong>Post request example:</strong></p>
+<pre><code class="hljs css language-sh"><span class="token function">curl</span> --location --request POST <span class="token string">'http://localhost:3000/service/endpoint/2cc6ce80-8235-4cbc-b72f-9dbc3cf8364d'</span> <span class="token punctuation">\</span>
+--header <span class="token string">'Content-Type: application/json'</span> <span class="token punctuation">\</span>
+--data-raw <span class="token string">'{
+  "name": "Jose",
+  "location": {
+      "lat": 42.8867647,
+      "lon": -9.2716399
+  }
+}'</span>
+</code></pre>
+<p><strong>PDF Template</strong></p>
+<pre><code class="hljs css language-text">Hello {{trigger.result.data.name}}! 
+
+We found you. You are in:
+{{trigger.result.data.location.lat}} & {{trigger.result.data.location.lon}}
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="where-to-use-it"></a><a href="#where-to-use-it" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Where to use it</h2>
+<p>Tideflow integrates its templating system in most of the places where it could be used.</p>
+<p>Aditionally, you will see, via the workflow editor, every place where it can be used.</p>
+<h2><a class="anchor" aria-hidden="true" id="how-to-use-it"></a><a href="#how-to-use-it" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How to use it</h2>
+<p>Using the templating system is as easy as placing square brackets {{}} whenever
+your want Tideflow to replace it with constom values.</p>
+<p>For example, if you want to use a value provided by the workflow's trigger, you
+can do so as:</p>
+<pre><code class="hljs css language-text">{{trigger.result.data.SomeValue}}
+</code></pre>
+<p>This will take the property &quot;SomeValue&quot; from the trigger results.</p>
+<p>Apart from the trigger's data, you can use any task output. For example:</p>
+<pre><code class="hljs css language-text">{{MyTaskId.result.data.SomeOtherValue}}
+</code></pre>
+<p>This will take the property &quot;SomeOtherValue&quot; from the task which id is &quot;MyTask&quot;.</p>
+<p>You can customise each task's id via the workflow editor.</p>
+<h3><a class="anchor" aria-hidden="true" id="available-template-data"></a><a href="#available-template-data" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Available template data</h3>
+<p>Find below what's the available templating system data, for either the trigger
+and tasks.</p>
+<pre><code class="hljs css language-json"><span class="token punctuation">{</span>
+  <span class="token property">"MyTaskId"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"file"</span><span class="token punctuation">,</span>
+    <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"read-file"</span><span class="token punctuation">,</span>
+    <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.290Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
+    <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"files"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+          <span class="token property">"fileName"</span><span class="token operator">:</span> <span class="token string">"basic.html"</span><span class="token punctuation">,</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">]</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token property">"trigger"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token string">"trigger"</span><span class="token punctuation">,</span>
+    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"endpoint"</span><span class="token punctuation">,</span>
+    <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"called"</span><span class="token punctuation">,</span>
+    <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.274Z"</span><span class="token punctuation">,</span>
+    <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
+    <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Jose"</span><span class="token punctuation">,</span>
+        <span class="token property">"location"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"lat"</span><span class="token operator">:</span> <span class="token number">42.8867647</span><span class="token punctuation">,</span>
+          <span class="token property">"lon"</span><span class="token operator">:</span> <span class="token number">-9.2716399</span>
+        <span class="token punctuation">}</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="how-it-works"></a><a href="#how-it-works" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>How it works</h2>
+<p>Tideflow's templating system uses <a href="https://handlebarsjs.com/guide/">Handlebars</a>.
+This lets you use simple expressions, nested properties, context evaluations,
+conditionals, etc.</p>
+<h3><a class="anchor" aria-hidden="true" id="simple-expressions"></a><a href="#simple-expressions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Simple expressions</h3>
+<p>Replacing your template with the corresponding properties:</p>
+<pre><code class="hljs css language-text">{ "name": "Jose", "surname": "Constela" }
+
+&lt;p&gt;{{name}} {{surname}}&lt;/p&gt;
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="nested-objects"></a><a href="#nested-objects" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nested objects</h3>
+<p>Input objects contains other objects or arrays:</p>
+<pre><code class="hljs css language-text">{
+  person: {
+    firstname: "Yehuda",
+    lastname: "Katz",
+  }
+}
+
+{{person.firstname}} {{person.lastname}}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="evaluation-context"></a><a href="#evaluation-context" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Evaluation context</h3>
+<p>The built-in block-helpers <b>each</b> and <b>with</b> allow you to
+change the current evaluation context.</p>
+<p>The <b>with</b>-helper dives into an object-property, giving you access to its properties</p>
+<pre><code class="hljs css language-text">{{#with person}}
+  {{firstname}} {{lastname}}
+{{/with}}
+</code></pre>
+<p>The <b>each</b>-helper iterates an array, allowing to you access the properties of each object via simple handlebars expressions.</p>
+<pre><code class="hljs css language-text">{
+  people: [
+    "Yehuda Katz",
+    "Alan Johnson",
+    "Charles Jolley",
+  ],
+}
+
+&lt;ul class=&quot;people_list&quot;&gt;
+  {{#each people}}
+    &lt;li&gt;{{this}}&lt;/li&gt;
+  {{/each}}
+&lt;/ul&gt;
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="conditionals"></a><a href="#conditionals" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conditionals</h3>
+<p>Handlebars' built-in <b>if</b> and <b>unless</b> control structures:</p>
+<p><b>if</b> example:</p>
+<pre><code class="hljs css language-text">{{#if isActive}}
+  &lt;img src=&quot;star.gif&quot; alt=&quot;Active&quot;&gt;
+{{/if}}
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/docs/getstarted-first-workflow"><span class="arrow-prev">← </span><span>Your first workflow</span></a><a class="docs-next button" href="/docs/files"><span>Create and connect files</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#where-to-use-it">Where to use it</a></li><li><a href="#how-to-use-it">How to use it</a><ul class="toc-headings"><li><a href="#available-template-data">Available template data</a></li></ul></li><li><a href="#how-it-works">How it works</a><ul class="toc-headings"><li><a href="#simple-expressions">Simple expressions</a></li><li><a href="#nested-objects">Nested objects</a></li><li><a href="#evaluation-context">Evaluation context</a></li><li><a href="#conditionals">Conditionals</a></li></ul></li></ul></nav></div><div></div></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '5923b094c79ebc4645a612dcce757e35',
+                indexName: 'tideflow',
+                inputSelector: '#search_input_react'
+              });
+            </script></body></html>
