@@ -4,9 +4,9 @@ title: 📄 Templating system
 sidebar_label: Templating system
 ---
 
-Tideflow lets you customise your workflow's tasks data. This means that instead
-of hardcoding what a task is doing, it can intake data from previous tasks
-results.
+Tideflow template system lets you customise your workflow's tasks data.
+Instead of hardcoding what a task is expected to do, tasks can take data
+from previous tasks results.
 
 Let's put a example: you want to create a PDF file, but it needs to contain the
 name of a user, which is provided by the workflow's endpoint trigger: an endpoint.
