@@ -27,8 +27,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { href: "https://github.com/tideflow-io", label: "Developer Hub" },
     { href: "https://tideflow.io", label: "Website" },
+    { href: "https://tideflow.io/blog", label: "Blog" },
+    { href: "https://github.com/tideflow-io", label: "Github" },
     { href: "mailto:tideflowio@gmail.com", label: "Get In Touch" }
   ],
 
