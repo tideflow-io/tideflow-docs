@@ -1,7 +1,7 @@
 ---
 id: getstarted-templating
-title: Templating system
-sidebar_label: Templating
+title: 📄 Templating system
+sidebar_label: Templating system
 ---
 
 Tideflow lets you customise your workflow's tasks data. This means that instead
