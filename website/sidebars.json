@@ -6,8 +6,9 @@
     "🚀 Getting started": [
       "getstarted-install",
       "getstarted-first-workflow",
-      "monitor",
-      "files"
+      "getstarted-templating",
+      "files",
+      "monitor"
     ],
     "👩🏽‍💻 Developers guide": [
       "contribute",
