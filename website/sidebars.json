@@ -15,28 +15,13 @@
       "developers-creating-services",
       "developers-jobs",
       "api",
+      "example-app",
       "code-of-conduct"
     ],
     "💽 DevOps guide": [
       "sysadmin-deploying",
       "sysadmin-deploying-docker",
       "sysadmin-securing-install"
-    ],
-    "🤖 Services": [
-      "services-introduction",
-      "services-aws",
-      "services-agent",
-      "services-onesignal",
-      "services-cron",
-      "services-email-outbound",
-      "services-endpoints",
-      "services-gh-webhooks",
-      "services-gh-ci",
-      "services-bb-webhooks",
-      "services-pdf",
-      "services-webforms",
-      "services-webparsy",
-      "services-rss"
     ]
   }
 }
