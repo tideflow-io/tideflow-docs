@@ -15,5 +15,4 @@ Tideflow is a work-in-progress. All contributions are wellcome.
 Tideflow is a workflow automation webtool. It let's you design, automate and
 monitor your workflows in realtime.
 
-<img src="/img/D43dLHRXsAIwXDs.jpg" 
-  style="border:1px solid gray;" />
+<img src="/img/home/tideflow.png" />

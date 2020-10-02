@@ -12,7 +12,7 @@ executions based on the time lapse you select.
 
 <figure>
   <img src="/img/dashboard_stats.jpg" 
-    style="border:1px solid gray;" />
+    style="padding:15px;width:90%;border:10px solid #E9EEF1;" />
   <figcaption>Fig.1 - Live workflow execution statistics in homepage</figcaption>
 </figure>
 
@@ -23,7 +23,7 @@ date-time filtering feature. You can access it in your workflow's info screen.
 
 <figure>
   <img src="/img/workflow_execution_stats.jpg" 
-    style="border:1px solid gray;" />
+    style="padding:15px;width:90%;border:10px solid #E9EEF1;" />
   <figcaption>Fig.2 - Live and filterable executions in the workflow's info
   screen.</figcaption>
 </figure>
@@ -34,7 +34,7 @@ For one given execution, you can see all it's steps logs and timings.
 
 <figure>
   <img src="/img/flows-execution-log-screenshot.png" 
-    style="border:1px solid gray;" />
+    style="padding:15px;width:90%;border:10px solid #E9EEF1;"  />
   <figcaption>Fig.3 - Live detailed view for one specific execution.
   screen.</figcaption>
 </figure>

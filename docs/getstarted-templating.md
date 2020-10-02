@@ -13,7 +13,7 @@ name of a user, which is provided by the workflow's endpoint trigger: an endpoin
 
 <figure>
   <img src="/img/templating/pdf_example.png" 
-    style="border:1px solid gray;" />
+    style="width:95%;border:10px solid #FDB813;" />
 </figure>
 
 Instead of hardcoding the user's name in the PDF template, your template can

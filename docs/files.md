@@ -23,7 +23,7 @@ Tideflow.
 
 <figure>
   <img src="/img/files_section.jpg" 
-    style="border:1px solid gray;" />
+    style="padding:15px;width:90%;border:10px solid #E9EEF1;" />
   <figcaption>Fig.1 - New files section allows you create, edit and download files directly from the browser.</figcaption>
 </figure>
 
@@ -34,8 +34,7 @@ serve as an starting point for covering your needs. We are periodically adding
 aditional templates soon in the future.
 
 <figure>
-  <img src="/img/files_template_section.jpg"
-    style="border:1px solid gray;" />
+  <img src="/img/get-started/files-templates.png" />
   <figcaption>Fig.2 - File templates screen.</figcaption>
 </figure>
 
@@ -56,6 +55,6 @@ When you create a file, you can share it publicly with the click of a button.
 
 <figure>
   <img src="/img/share-files-publicly.webp"
-    style="border:1px solid gray;" />
+    style="padding:15px;width:90%;border:10px solid #E9EEF1;"  />
   <figcaption>Fig.3 - Sharing files publicly.</figcaption>
 </figure>
