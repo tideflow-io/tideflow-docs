@@ -108,32 +108,38 @@ can do so as:</p>
 <p>Find below what's the available templating system data, for either the trigger
 and tasks.</p>
 <pre><code class="hljs css language-json"><span class="token punctuation">{</span>
-  <span class="token property">"MyTaskId"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
-    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"file"</span><span class="token punctuation">,</span>
-    <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"read-file"</span><span class="token punctuation">,</span>
-    <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.290Z"</span><span class="token punctuation">,</span>
-    <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
-    <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-      <span class="token property">"files"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
-        <span class="token punctuation">{</span>
-          <span class="token property">"fileName"</span><span class="token operator">:</span> <span class="token string">"basic.html"</span><span class="token punctuation">,</span>
-        <span class="token punctuation">}</span>
-      <span class="token punctuation">]</span>
-    <span class="token punctuation">}</span>
+  <span class="token property">"execution"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"_id"</span><span class="token operator">:</span> <span class="token string">"vby645rf45653wr"</span>
   <span class="token punctuation">}</span><span class="token punctuation">,</span>
-  <span class="token property">"trigger"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-    <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token string">"trigger"</span><span class="token punctuation">,</span>
-    <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"endpoint"</span><span class="token punctuation">,</span>
-    <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"called"</span><span class="token punctuation">,</span>
-    <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.274Z"</span><span class="token punctuation">,</span>
-    <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
-    <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-      <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-        <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Jose"</span><span class="token punctuation">,</span>
-        <span class="token property">"location"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
-          <span class="token property">"lat"</span><span class="token operator">:</span> <span class="token number">42.8867647</span><span class="token punctuation">,</span>
-          <span class="token property">"lon"</span><span class="token operator">:</span> <span class="token number">-9.2716399</span>
+  <span class="token property">"tasks"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"MyTaskId"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"file"</span><span class="token punctuation">,</span>
+      <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"read-file"</span><span class="token punctuation">,</span>
+      <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.290Z"</span><span class="token punctuation">,</span>
+      <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
+      <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"files"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>
+            <span class="token property">"fileName"</span><span class="token operator">:</span> <span class="token string">"basic.html"</span><span class="token punctuation">,</span>
+            <span class="token property">"url"</span><span class="token operator">:</span> <span class="token string">"http://localhost:3000/download?type=actionFile&amp;token=eyJhbGciO2A"</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"trigger"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"stepIndex"</span><span class="token operator">:</span> <span class="token string">"trigger"</span><span class="token punctuation">,</span>
+      <span class="token property">"type"</span><span class="token operator">:</span> <span class="token string">"endpoint"</span><span class="token punctuation">,</span>
+      <span class="token property">"event"</span><span class="token operator">:</span> <span class="token string">"called"</span><span class="token punctuation">,</span>
+      <span class="token property">"createdAt"</span><span class="token operator">:</span> <span class="token string">"2020-09-29T14:32:17.274Z"</span><span class="token punctuation">,</span>
+      <span class="token property">"status"</span><span class="token operator">:</span> <span class="token string">"success"</span><span class="token punctuation">,</span>
+      <span class="token property">"result"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"data"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+          <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"Jose"</span><span class="token punctuation">,</span>
+          <span class="token property">"location"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+            <span class="token property">"lat"</span><span class="token operator">:</span> <span class="token number">42.8867647</span><span class="token punctuation">,</span>
+            <span class="token property">"lon"</span><span class="token operator">:</span> <span class="token number">-9.2716399</span>
+          <span class="token punctuation">}</span>
         <span class="token punctuation">}</span>
       <span class="token punctuation">}</span>
     <span class="token punctuation">}</span>
