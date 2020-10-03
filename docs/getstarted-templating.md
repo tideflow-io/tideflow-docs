@@ -79,32 +79,38 @@ and tasks.
 
 ```json
 {
-  "MyTaskId": {
-    "stepIndex": 1,
-    "type": "file",
-    "event": "read-file",
-    "createdAt": "2020-09-29T14:32:17.290Z",
-    "status": "success",
-    "result": {
-      "files": [
-        {
-          "fileName": "basic.html",
-        }
-      ]
-    }
+  "execution": {
+    "_id": "vby645rf45653wr"
   },
-  "trigger": {
-    "stepIndex": "trigger",
-    "type": "endpoint",
-    "event": "called",
-    "createdAt": "2020-09-29T14:32:17.274Z",
-    "status": "success",
-    "result": {
-      "data": {
-        "name": "Jose",
-        "location": {
-          "lat": 42.8867647,
-          "lon": -9.2716399
+  "tasks": {
+    "MyTaskId": {
+      "stepIndex": 1,
+      "type": "file",
+      "event": "read-file",
+      "createdAt": "2020-09-29T14:32:17.290Z",
+      "status": "success",
+      "result": {
+        "files": [
+          {
+            "fileName": "basic.html",
+            "url": "http://localhost:3000/download?type=actionFile&token=eyJhbGciO2A"
+          }
+        ]
+      }
+    },
+    "trigger": {
+      "stepIndex": "trigger",
+      "type": "endpoint",
+      "event": "called",
+      "createdAt": "2020-09-29T14:32:17.274Z",
+      "status": "success",
+      "result": {
+        "data": {
+          "name": "Jose",
+          "location": {
+            "lat": 42.8867647,
+            "lon": -9.2716399
+          }
         }
       }
     }
