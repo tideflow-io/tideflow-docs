@@ -84,6 +84,7 @@ and tasks.
   },
   "tasks": {
     "MyTaskId": {
+      "_id": "iesFwrdTtBToRRBzB",
       "stepIndex": 1,
       "type": "file",
       "event": "read-file",
@@ -96,13 +97,15 @@ and tasks.
             "url": "http://localhost:3000/download?type=actionFile&token=eyJhbGciO2A"
           }
         ]
-      }
+      },
+      "updatedAt": "2020-09-29T14:32:17.290Z"
     },
     "trigger": {
+      "_id": "iesFwrdTtBToRRBzB",
       "stepIndex": "trigger",
       "type": "endpoint",
       "event": "called",
-      "createdAt": "2020-09-29T14:32:17.274Z",
+      "createdAt": "2020-09-29T14:32:17.272Z",
       "status": "success",
       "result": {
         "data": {
@@ -112,7 +115,8 @@ and tasks.
             "lon": -9.2716399
           }
         }
-      }
+      },
+      "updatedAt": "2020-09-29T14:32:17.274Z"
     }
   }
 }
