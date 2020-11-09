@@ -22,6 +22,10 @@
       "sysadmin-deploying",
       "sysadmin-deploying-docker",
       "sysadmin-securing-install"
+    ],
+    "🍬 Extras": [
+      "extra-tools"
     ]
+    
   }
 }
